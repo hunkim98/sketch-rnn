@@ -1,0 +1,14 @@
+__pycache__/
+.venv
+!dezero/__pycache__/__init__.cpython-310.pyc
+!dezero/__pycache__/core.cpython-310.pyc
+!dezero/__pycache__/cuda.cpython-310.pyc
+!dezero/__pycache__/dataloaders.cpython-310.pyc
+!dezero/__pycache__/datasets.cpython-310.pyc
+!dezero/__pycache__/functions_conv.cpython-310.pyc
+!dezero/__pycache__/functions.cpython-310.pyc
+!dezero/__pycache__/layers.cpython-310.pyc
+!dezero/__pycache__/models.cpython-310.pyc
+!dezero/__pycache__/optimizers.cpython-310.pyc
+!dezero/__pycache__/transforms.cpython-310.pyc
+!dezero/__pycache__/utils.cpython-310.pyc
