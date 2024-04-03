@@ -21,6 +21,9 @@ class Layer:
 
     def __call__(self, *inputs):
         outputs = self.forward(*inputs)
+        # print("Data Type: ", type(inputs))
+        # print("Data: ", inputs[0])
+        # print("Device Type: ", inputs[0].device)
         if not isinstance(outputs, tuple):
             outputs = (outputs,)
         self.inputs = [weakref.ref(x) for x in inputs]
@@ -287,7 +290,7 @@ class LSTM(Layer):
         h_new = o * F.tanh(c_new)
 
         self.h, self.c = h_new, c_new
-        return h_new, c_new
+        return h_new, c_new 
 
 
 # =============================================================================
